@@ -28,7 +28,7 @@ public class BuffsCustom implements IItemHandler
 	public static void sendHtml(Player player)
 	{
 		NpcHtmlMessage html = new NpcHtmlMessage(0);
-		html.setFile("data/html/mods/buffsCustom/buff.htm");
+		html.setFile("data/html/help/buffsCustom/buff.htm");
 		player.sendPacket(html);
 	}
 }
